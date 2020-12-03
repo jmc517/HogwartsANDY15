@@ -8,7 +8,6 @@ def test_product():
     para = {'skuIdList': [773, 778, 788]}
 
 
-
     r = requests.post(url, json=para, headers=headers)
     print(json.dumps(r.json(),indent=2,ensure_ascii=False))
 
